@@ -1,0 +1,42 @@
+.Home-container {
+    background-color: #f8f88e;
+    height: 100vh;
+    padding: 8%;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Text {
+    flex-basis: 65%;
+    padding-right: 30px;
+}
+
+.Text h1 {
+    font-size: 3rem;
+    color: #FFBE07;
+    margin-bottom: 10px;
+}
+
+.Text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.Search {
+    flex-basis: 45%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.Search h2 {
+    margin-top: 0;
+    color: black;
+}
