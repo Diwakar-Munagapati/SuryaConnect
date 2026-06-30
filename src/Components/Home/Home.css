@@ -1,7 +1,8 @@
-.Home-container {
-    background-color: #f8f88e;
-    height: 100vh;
-    padding: 8%;
+.home-container {
+    background-color: #f5f5a8 !important;
+    height: 69vh;
+    padding: 20px;
+    padding-top: 7%;
 }
 
 .Content {
@@ -11,32 +12,67 @@
 }
 
 .Text {
-    flex-basis: 65%;
-    padding-right: 30px;
+    flex-basis: 60%;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
-.Text h1 {
-    font-size: 3rem;
-    color: #FFBE07;
-    margin-bottom: 10px;
+.Text h1{
+    color: #FFC105;
+    font-size: 3.5rem;
 }
 
-.Text p {
+.Text p{
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #555;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .Search {
-    flex-basis: 45%;
+    flex-basis: 40%;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     background-color: white;
+    width: 200px;
 }
 
 .Search h2 {
     margin-top: 0;
-    color: black;
+}
+
+.search-input-container {
+    margin-bottom: 15px;
+}
+
+.search-input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.search-input-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #e64a19;
 }
